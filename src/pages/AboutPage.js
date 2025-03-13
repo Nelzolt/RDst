@@ -16,7 +16,7 @@ export default function AboutPage() {
       <section className="bg-black text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 play">About RD Stewart Law Firm</h1>
+            <h1 className="text-3xl md:text-5xl font-bold mb-6 play">About RD Stewart Law Firm</h1>
             <p className="text-xl mb-8">
               A trusted legal partner committed to excellence and client success since 1995.
             </p>
