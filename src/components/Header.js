@@ -39,14 +39,14 @@ function Header() {
       }`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex h-20 items-center justify-between">
+        <div className="flex h-[64px] md:h-20 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             {/* <div className="flex flex-col">
               <span className="text-xl font-bold tracking-tight text-primary">RD STEWART</span>
               <span className="text-xs uppercase tracking-widest text-muted-foreground">LAW FIRM</span>
             </div> */}
-            <img alt="rd stewart logo" src="/rdLogo.png" className="h-[40px] md:h-[70px]"/>
+            <img alt="rd stewart logo" src="/rdLogo.png" className="h-[50px] md:h-[70px]"/>
           </Link>
 
           {/* Desktop Navigation */}
