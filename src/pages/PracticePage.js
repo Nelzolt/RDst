@@ -113,7 +113,6 @@ const PracticePage = () => {
                 <ul className="text-sm md:text-base text-muted-foreground">
                   <li>- Car, truck, and motorcycle accidents </li>
                   <li>- Slip and fall injuries </li>
-                  <li>- Slip and fall injuries </li>
                   <li>- Medical malpractice </li>
                   <li>- Wrongful death claims</li>
                   <li>- Workplace injuries</li>
