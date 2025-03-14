@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { ArrowRight, CheckCircle, Scale, Shield, Award, Clock } from "lucide-react"
+import { ArrowRight, CheckCircle, Scale, Shield, Award, Clock, User, User2 } from "lucide-react"
 
 import { Button } from "../components/ui/button"
 import { Card, CardContent } from "../components/ui/card"
@@ -116,7 +116,17 @@ function HomePage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-xl md:text-3xl font-bold mb-4 text-center play">About Thomas J. Valentino</h2>
+              <h2 className="text-xl md:text-3xl font-bold mb-4 text-center play ">About Thomas J. Valentino</h2>
+
+              <div className="relative md:hidden my-7">
+              <div className="absolute -top-4 -left-4 w-24 h-24 bg-primary/10 -z-10"></div>
+              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/10 -z-10"></div>
+              <img
+                src="/thomas.jpg"
+                alt="Thomas J. Valentino"
+                className="rounded-lg shadow-lg w-full object-contain h-[350px] md:h-[450px]"
+              />
+            </div>
               <p className="text-base md:text-lg text-muted-foreground mb-6">
                 With over 20 years of experience, Thomas J. Valentino has established himself as a respected attorney in
                 New York, known for his dedication to clients and exceptional results.
@@ -128,13 +138,13 @@ function HomePage() {
               </p>
               <div className="flex items-center space-x-4 mb-6">
                 <div className="h-1 w-12 bg-primary"></div>
-                <p className="text-lg font-medium">Committed to Excellence</p>
+                <p className="text-lg font-medium text-muted-foreground">Committed to Excellence</p>
               </div>
               <Button asChild className="text-sm md:text-base bg-primary hover:bg-primary/90 text-primary-foreground">
                 <Link to="/about">Learn More About Us</Link>
               </Button>
             </div>
-            <div className="relative">
+            <div className="relative hidden md:block">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-primary/10 -z-10"></div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/10 -z-10"></div>
               <img
@@ -183,13 +193,14 @@ function HomePage() {
                   <div className="flex flex-col items-center text-center">
                     <div className="mb-4 relative">
                       <div className="absolute inset-0 rounded-full bg-primary/10 transform scale-150"></div>
-                      <img
+                      {/* <img
                         src={testimonial.image || "/placeholder.svg"}
                         alt={testimonial.name}
                         width={80}
                         height={80}
                         className="rounded-full relative z-10"
-                      />
+                      /> */}
+                      <User2 color="gray"  />
                     </div>
                     <p className=" text-sm md:text-base italic mb-4 text-muted-foreground">"{testimonial.quote}"</p>
                     <p className="font-semibold">{testimonial.name}</p>

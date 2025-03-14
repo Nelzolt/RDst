@@ -22,7 +22,9 @@ const PracticePage = () => {
       <section className="py-16 bg-gray-50">
         <div className="coverer mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-xl md:text-3xl play font-bold mb-4">Our Practice Areas</h2>
+            <h2 className="text-xl md:text-3xl play font-bold mb-4">
+              Our Practice Areas
+            </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               We provide comprehensive legal services across a wide range of
               practice areas to meet your needs.
@@ -34,7 +36,9 @@ const PracticePage = () => {
           <div className="coverer mx-auto px-4">
             <div className="flex flex-col md:flex-row gap-12 items-center">
               <div className="w-full md:w-[50%]">
-                <h2 className="text-xl md:text-3xl play font-bold mb-4">Family Law</h2>
+                <h2 className="text-xl md:text-3xl play font-bold mb-4">
+                  Family Law
+                </h2>
                 <p className="text-base md:text-lg text-muted-foreground mb-6">
                   Navigating family legal matters can be emotionally
                   challenging, but our compassionate attorneys are here to
@@ -67,8 +71,8 @@ const PracticePage = () => {
 
         <section className="py-8 md:py-12">
           <div className="coverer mx-auto px-4">
-          <div className="flex flex-col-reverse md:flex-row gap-12 items-center">
-          <div className="w-full md:w-[50%] relative">
+            <div className="flex flex-col-reverse md:flex-row gap-12 items-center">
+              <div className="w-full md:w-[50%] relative">
                 <div className="absolute -top-4 -left-4 w-24 h-24 bg-primary/10 -z-10"></div>
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/10 -z-10"></div>
                 <img
@@ -78,7 +82,9 @@ const PracticePage = () => {
                 />
               </div>
               <div className="w-full md:w-[50%]">
-                <h2 className="text-xl md:text-3xl play font-bold mb-4">Criminal Defense</h2>
+                <h2 className="text-xl md:text-3xl play font-bold mb-4">
+                  Criminal Defense
+                </h2>
                 <p className="text-base md:text-lg text-muted-foreground mb-6">
                   If you are facing criminal charges, you need a strong defense
                   team to protect your rights. Our criminal defense attorneys
@@ -102,9 +108,11 @@ const PracticePage = () => {
 
         <section className="py-8 md:py-12">
           <div className="coverer mx-auto px-4">
-          <div className="flex flex-col md:flex-row gap-12 items-center">
-          <div className="w-full md:w-[50%]">
-                <h2 className="text-xl md:text-3xl play font-bold mb-4">Personal Injury</h2>
+            <div className="flex flex-col md:flex-row gap-12 items-center">
+              <div className="w-full md:w-[50%]">
+                <h2 className="text-xl md:text-3xl play font-bold mb-4">
+                  Personal Injury
+                </h2>
                 <p className="text-base md:text-lg text-muted-foreground mb-6">
                   If you’ve been injured due to someone else’s negligence, you
                   deserve compensation for your losses. We represent clients in
@@ -138,8 +146,8 @@ const PracticePage = () => {
 
         <section className="py-8 md:py-12">
           <div className="coverer mx-auto px-4">
-          <div className="flex flex-col-reverse md:flex-row gap-12 items-center">
-          <div className="w-full md:w-[50%] relative">
+            <div className="flex flex-col-reverse md:flex-row gap-12 items-center">
+              <div className="w-full md:w-[50%] relative">
                 <div className="absolute -top-4 -left-4 w-24 h-24 bg-primary/10 -z-10"></div>
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/10 -z-10"></div>
                 <img
@@ -149,7 +157,9 @@ const PracticePage = () => {
                 />
               </div>
               <div className="w-full md:w-[50%]">
-                <h2 className="text-xl md:text-3xl play font-bold mb-4">Business Law</h2>
+                <h2 className="text-xl md:text-3xl play font-bold mb-4">
+                  Business Law
+                </h2>
                 <p className="text-base md:text-lg text-muted-foreground mb-6">
                   Whether you're launching a startup or managing an established
                   business, our legal team provides strategic counsel to help
@@ -175,9 +185,12 @@ const PracticePage = () => {
 
         <section className="py-8 md:py-12">
           <div className="coverer mx-auto px-4">
-          <div className="flex flex-col md:flex-row gap-12 items-center">
-          <div className="w-full md:w-[50%]">
-                <h2 className="text-xl md:text-3xl play font-bold mb-4"> Estate Planning</h2>
+            <div className="flex flex-col md:flex-row gap-12 items-center">
+              <div className="w-full md:w-[50%]">
+                <h2 className="text-xl md:text-3xl play font-bold mb-4">
+                  {" "}
+                  Estate Planning
+                </h2>
                 <p className="text-base md:text-lg text-muted-foreground mb-6">
                   Planning for the future is essential to protect your assets
                   and ensure your wishes are carried out. Our estate planning
@@ -189,11 +202,10 @@ const PracticePage = () => {
                   <li>- Probate and estate administration </li>
                   <li>- Asset protection strategies </li>
                   <li>- Elder law and Medicaid planning</li>
-                 
                 </ul>
                 <p className="text-sm md:text-base text-muted-foreground mt-2">
-                We work with you to create a customized plan that provides
-                security for you and your loved ones.
+                  We work with you to create a customized plan that provides
+                  security for you and your loved ones.
                 </p>
               </div>
               <div className="relative w-full md:w-[50%]">
@@ -208,8 +220,7 @@ const PracticePage = () => {
             </div>
           </div>
         </section>
-<Cta/>
-      
+        <Cta />
       </section>
     </div>
   );
