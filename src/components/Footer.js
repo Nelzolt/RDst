@@ -49,7 +49,7 @@ function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="mr-2 h-5 w-5 shrink-0 text-primary" />
-                <span>legal@rdstewartlaw.com</span>
+                <span>legal@rdstewartlawfirm.com</span>
               </li>
             </ul>
           </div>
